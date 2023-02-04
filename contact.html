@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/x-icon" href="Multimedia/Imagenes/Logotipo.png">
+    <script src="JS/script.js"></script>
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <div class="container" id="containerContact">
+
+        <!-- Menu -->
+        <ul class="navbar">
+            <!-- Logo -->
+            <a href="index.html" id="logo">
+                <img src="Multimedia/Imagenes/index.png" alt="index">
+            </a>
+            <!-- Projects -->
+            <a class="arrow" href="projects.html" id="projects">
+                <li>Projects</li>
+            </a>
+            <!-- CV -->
+            <a class="arrow" href="curriculumv.html" id="curriculumv">
+                <li>CV</li>
+            </a>
+            <!-- Contact Me -->
+            <a class="arrow" href="contact.html" id="contact">
+                <li>Contact</li>
+            </a>
+            <!-- About Me -->
+            <a class="arrow" href="aboutme.html" id="aboutme">
+                <li>About Me</li>
+            </a>
+        </ul>
+
+        <!-- Mobile Menu -->
+        <div class="navbar-mobile">
+            <a href="index.html" class="active">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="curriculumv.html">CV</a>
+            <a href="contact.html">Contact</a>
+            <a href="aboutme.html">About Me</a>
+        </div>
+
+        <!-- Title -->
+        <div id="contactTitle">
+            <h3>Contact Me</h3>
+        </div>
+
+        <!-- Contact me form -->
+        <form action="C:\xampp\htdocs\portfolio\contact.php" method="post" id="formContact">
+
+            <!-- First Name -->
+            <div class="col" id="firstName">
+                <label for="firstName" id="firstNameLabel">First Name: </label>
+                <input class="validar" id="firstName" pattern="[A-Za-z]+$" name="firstName" type="text"
+                    autocomplete="off" required>
+            </div>
+
+            <!-- Last Name -->
+            <div class="col" id="lastName">
+                <label for="lastName" id="lastNameLabel">Last Name: </label>
+                <input id="lastName" pattern="[A-Za-z]+$" name="lastName" type="text" autocomplete="off">
+            </div>
+
+            <!-- Subject -->
+            <div class="col" id="subject">
+                <label for="subject" id="subjectLabel">Subject: </label>
+                <input class="validar" id="subject" pattern="[A-Za-z0-9]+$" name="subject" type="text"
+                    autocomplete="off" required>
+            </div>
+
+            <!-- Message -->
+            <div class="col" id="message">
+                <label for="message" id="messageLabel">Message: </label>
+                <textarea class="validar" pattern="[A-Za-z0-9]+$" id="message" name="message" id="" cols="30" rows="10"
+                    autocomplete="off" required></textarea>
+            </div>
+
+            <!-- Send button -->
+            <button id="submit" name="submit" type="submit" value="Submit">Submit</button>
+
+            <aside>
+                <h2>Personal Mail</h2>
+                <a href="mailto:gonzaloruizazaldegui@gmail.com">gonzaloruizazaldegui@gmail.com</a>
+                <div class="images">
+                    <a target="_blank" href="https://instagram.com/g.azaldegi"><img class="imgRedes"
+                            src="Multimedia/Imagenes/instagram.png" alt="IG"></a>
+                    <a target="_blank" href="https://github.com/LaloruHub/"><img class="imgRedes"
+                            src="Multimedia/Imagenes/github.png" alt="TW"></a>
+                    <a target="_blank" href="https://twitter.com/g_azaldegi"><img class="imgRedes"
+                            src="Multimedia/Imagenes/twitter.png" alt="TW"></a>
+                </div>
+            </aside>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
