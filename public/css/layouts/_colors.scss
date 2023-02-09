@@ -1,0 +1,29 @@
+$black: #101010;
+$black-minimal: #191919;
+$grey-dark: #333333;
+$green-dark: #263D2D;
+$green-light: #9DA79E;
+$white: #FFFFFF;
+
+@font-face {
+	font-family: roboto-regular;
+	src: url(/Multimedia/fuentes/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: roboto-thin;
+	src: url(/Multimedia/fuentes/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+	font-family: roboto-light;
+	src: url(/Multimedia/fuentes/Roboto/Roboto-Light.ttf);
+}
+
+.thin{
+	font-family: roboto-thin;
+}
+
+.light{
+	font-family: roboto-light;
+}

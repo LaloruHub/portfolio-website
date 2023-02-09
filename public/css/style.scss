@@ -1,0 +1,16 @@
+@use 'layouts/_colors.scss' as *;
+
+@use 'layouts/_menu.scss';
+@use 'layouts/_index.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto-regular;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: url(/Multimedia/Imagenes/wallpaper.jpg) fixed no-repeat;
+  color: $white;
+}
