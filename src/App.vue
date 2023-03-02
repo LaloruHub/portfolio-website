@@ -1,6 +1,6 @@
 <template>
 	<!-- MENU  -->
-	<nav>
+	<!-- <nav>
 		<div
 			class="burger-menu"
 			@click="burger">
@@ -11,28 +11,27 @@
 
 		<div
 			v-if="burgerShow"
-			id="menu">
+			id="menu"
+			class="glass">
 			<a href="">About</a>
 			<a href="#contact-me">Contact</a>
 		</div>
-	</nav>
+	</nav> -->
 
-	<main class="container d-flex flex-row gap-5">
-		<section class="d-flex flex-column glass p-3 w-50">
+	<main class="container gap-5 d-flex flex-column justify-content-center align-items-center">
+		<section class="d-flex flex-column p-3 w-25 titulo">
 			<h1 class="thin">Hi, my</h1>
 			<h1 class="thin">name is <span class="light">Gonzalo</span></h1>
-			<hr />
-			<h4 class="thin align-self-end">{{ job }}</h4>
+			<h6 class="thin align-self-end">{{ job }}</h6>
 		</section>
-		<section class="light glass p-3">
+		<!-- <section class="light glass p-3">
 			{{ abMe }}
-		</section>
+		</section> -->
 	</main>
 	<div class="position-absolute bottom-0 start-50">
-		<hr>
 		<a
 			id="scroll"
-			class="bi-2x bi-caret-down-fill "
+			class="bi-2x bi-caret-down-fill"
 			href="#contact-me"></a>
 	</div>
 	<section id="contact-me">
@@ -80,7 +79,6 @@
 		},
 		computed: {
 			job() {
-				console.log(this.devs.join('/'));
 				return this.devs.join('/');
 			},
 		},

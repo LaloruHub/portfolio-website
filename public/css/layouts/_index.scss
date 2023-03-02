@@ -11,13 +11,13 @@
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 
-	color: $green-light !important;
+	color: $grey-light !important;
 }
 
 #scroll {
-	color: $green-light !important;
+	color: $grey-light !important;
   font-size: 100px;
   &:hover{
-    color: $green-dark !important;
+    color: $grey-dark !important;
   }
 }

@@ -1,9 +1,9 @@
 $black: #101010;
 $black-minimal: #191919;
 $grey-dark: #333333;
-$green-dark: #263D2D;
-$green-light: #9DA79E;
-$white: #FFFFFF;
+$grey-mid-dark: #263d2d;
+$grey-light: #9da79e;
+$white: #ffffff;
 
 @font-face {
 	font-family: roboto-regular;
@@ -20,10 +20,10 @@ $white: #FFFFFF;
 	src: url(/Multimedia/fuentes/Roboto/Roboto-Light.ttf);
 }
 
-.thin{
+.thin {
 	font-family: roboto-thin;
 }
 
-.light{
+.light {
 	font-family: roboto-light;
 }

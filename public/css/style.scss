@@ -10,7 +10,19 @@
   scroll-behavior: smooth;
 }
 
+*::selection{
+  background-color: $grey-light; 
+}
+
 body{
-  background: url(/Multimedia/Imagenes/wallpaper.jpg) fixed no-repeat;
+  background-image: url(/Multimedia/Imagenes/wallpaper_1.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: $white;
+}
+
+.titulo{
+  margin-top: 50vh;
+  color: $grey-dark !important;
+  font-size: 100px !important;
 }
